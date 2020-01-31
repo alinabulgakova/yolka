@@ -1,0 +1,10 @@
+pulic class Yolka {
+    int i=1;
+    string zir="*";
+    while (i<10) {
+        System.out.println(&zir);
+        zir+=zir;
+        i++;
+    }
+
+}
