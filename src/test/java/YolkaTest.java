@@ -9,4 +9,7 @@ public class YolkaTest {
         assertEquals("  *  ", new Yolka().print().split("\n")[0]);
     }
 
+    @Test
+    public void tripleStarPrint() {assertEquals(" *** ", new Yolka().print().split("\n")[1]);}
+
 }
